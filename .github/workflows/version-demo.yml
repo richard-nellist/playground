@@ -21,4 +21,4 @@ jobs:
           token: ${{ github.token }}
           branch: ${{ github.ref }}
           patchAll: true
-          fallbackTag: 0.0.1
+          fallbackTag: 0.0.0
