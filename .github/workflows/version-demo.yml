@@ -20,3 +20,5 @@ jobs:
         with:
           token: ${{ github.token }}
           branch: ${{ github.ref }}
+          patchAll: true
+          fallbackTag: v0.0.1
